@@ -4,7 +4,6 @@
 # This script takes experimental data for output voltage (Vo) as a function of load resistance (RL), plots the raw data, and fits it to the theoretical curve, providing estimates and errors for the function parameters.
 
 import matplotlib.pyplot as plt
-
 import pandas as pd
 import numpy as np
 from scipy.optimize import curve_fit
